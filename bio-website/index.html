@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oussama Smaka Bio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #0b4a34;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            color: white;
+        }
+        h1 {
+            margin-bottom: 40px;
+            font-size: 2.5em;
+        }
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 55px;
+        }
+        .social-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            background: #357e65;
+            padding: 15px 30px;
+            border-radius: 40px;
+            transition: background 0.3s;
+            box-shadow: 12px 12px 32px #1b3f33, -12px -12px 32px #50bd98;
+            min-height: 1046px;
+            width: 500px;
+            justify-content: flex-start;
+            position: relative;
+        }
+        .profile-img-main {
+            width: 150px;
+            height: 150px;
+            border-radius: 40px;
+            background: #357e65;
+            display: block;
+            margin: 0 auto 20px;
+            box-shadow: 12px 12px 32px #1b3f33, -12px -12px 32px #50bd98;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .description {
+            background: #357e65;
+            border-radius: 40px;
+            padding: 15px 30px;
+            margin-bottom: 40px;
+            box-shadow: 12px 12px 32px #082018, -12px -12px 32px #50bd98;
+            text-align: center;
+            font-size: 1.2em;
+            color: white;
+            background-image: url('imag/ogc.gif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .desc-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .card-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+            cursor: pointer;
+            transition: transform 0.5s ease, opacity 0.5s ease;
+        }
+        .card-img:hover {
+            animation: disappearUp 0.5s ease forwards;
+        }
+        @keyframes disappearUp {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(-100px); opacity: 0; }
+        }
+        .social-link:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .social-link i {
+            font-size: 1.5em;
+            margin-right: 15px;
+        }
+        .social-link.instagram {
+            background-image: url('imag/image1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .social-link.snapchat {
+            background-image: url('imag/image2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .social-link.tiktok {
+            background-image: url('imag/image3.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .social-link.facebook {
+            background-image: url('imag/image4.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .social-link.discord {
+            background-image: url('imag/image6.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <img src="imag/image7.jpg" alt="Oussama Smaka Profile" class="profile-img-main">
+    <h1>Oussama Smaka</h1>
+    <p class="description">Welcome to my bio page! Connect with me on social media.</p>
+    <div class="social-links">
+        <a href="https://instagram.com/oussama_smaka" class="social-link instagram" target="_blank">
+            <img src="imag/image7.jpg" alt="" class="card-img">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://snapchat.com/add/oussama_smaka" class="social-link snapchat" target="_blank">
+            <img src="imag/image7.jpg" alt="" class="card-img">
+            <i class="fab fa-snapchat-ghost"></i> Snapchat
+        </a>
+        <a href="https://tiktok.com/@oussama_smaka" class="social-link tiktok" target="_blank">
+            <img src="imag/image7.jpg" alt="" class="card-img">
+            <i class="fab fa-tiktok"></i> TikTok
+        </a>
+        <a href="https://facebook.com/oussama_smaka" class="social-link facebook" target="_blank">
+            <img src="imag/image7.jpg" alt="" class="card-img">
+            <i class="fab fa-facebook-f"></i> Facebook
+        </a>
+        <a href="https://discord.com/users/oussama_smaka" class="social-link discord" target="_blank">
+            <img src="imag/image7.jpg" alt="" class="card-img">
+            <i class="fab fa-discord"></i> Discord
+        </a>
+    </div>
+</body>
+</html>
